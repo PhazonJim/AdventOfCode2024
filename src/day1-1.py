@@ -1,4 +1,4 @@
-input_location = './input/day1.txt'
+input_location = './input/day1-1.txt'
 
 with open(input_location) as f:
     left, right = zip(*[line.strip().split() for line in f.readlines()])
